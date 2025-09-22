@@ -1,0 +1,77 @@
+<h2 class="text-center text-2xl uppercase m-2 dark:text-cyan-100">
+  A continuación se muestran algunos componentes UI de ejemplo
+</h2>
+<div>
+  <app-component-card title="Success Alert">
+    <div>
+      <app-alert
+        variant="success"
+        title="Success Message"
+        message="Be cautious when performing this action."
+        [showLink]="true"
+        linkHref="/"
+        linkText="Learn more"
+      />
+    </div>
+    <div>
+      <app-alert
+        variant="success"
+        title="Success Message"
+        message="Be cautious when performing this action."
+        [showLink]="false"
+      />
+    </div>
+  </app-component-card>
+</div>
+
+<div>
+  <app-component-card title="Info Alert">
+    <div>
+      <app-alert
+        variant="info"
+        title="Info Message"
+        message="Be cautious when performing this action."
+        [showLink]="true"
+        linkHref="/"
+        linkText="Learn more"
+      />
+    </div>
+    <div>
+      <app-alert
+        variant="info"
+        title="Info Message"
+        message="Be cautious when performing this action."
+        [showLink]="false"
+      />
+    </div>
+  </app-component-card>
+</div>
+
+<app-page-breadcrumb pageTitle="Bar Chart" />
+<div class="space-y-6">
+  <div>
+    <app-component-card title="Bar Chart 1">
+      <app-bar-chart-one />
+    </app-component-card>
+  </div>
+</div>
+
+<div>
+  <app-component-card title="Primary Button">
+    <div class="flex items-center gap-5">
+      <app-button size="sm" variant="primary"> Button Text </app-button>
+      <app-button size="md" variant="primary"> Button Text </app-button>
+    </div>
+  </app-component-card>
+</div>
+
+<!-- Primary Button with Start Icon -->
+<div>
+  <app-component-card title="Secondary Button">
+    <div class="flex items-center gap-5">
+      <!-- Outline Button -->
+      <app-button size="sm" variant="outline"> Button Text </app-button>
+      <app-button size="md" variant="outline"> Button Text </app-button>
+    </div>
+  </app-component-card>
+</div>

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirigiendo...</title>
+    <script>
+      const base = "/2do-examen-uab";
+      const path = location.pathname.replace(base, "");
+
+      // Solo redirige si no hay hash
+      if (!location.hash && path) {
+        location.replace(base + "/#" + path + location.search);
+      }
+    </script>
+  </head>
+  <body>
+    Redirigiendo...
+  </body>
+</html>
