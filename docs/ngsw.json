@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1758558971784,
+  "timestamp": 1758561448095,
   "index": "/2do-examen-uab/index.html",
   "assetGroups": [
     {
@@ -15,18 +15,18 @@
         "/2do-examen-uab/chunk-TFWQI2BS.js",
         "/2do-examen-uab/favicon.ico",
         "/2do-examen-uab/index.html",
+        "/2do-examen-uab/main-5AXBITDP.js",
         "/2do-examen-uab/main-7EP6GT2C.css",
-        "/2do-examen-uab/main-ZTG3OUKJ.js",
         "/2do-examen-uab/manifest.webmanifest",
         "/2do-examen-uab/polyfills-5CFQRCPP.js",
         "/2do-examen-uab/scripts-SLBTLPV2.js",
-        "/2do-examen-uab/styles-73CFUATZ.css"
+        "/2do-examen-uab/styles-YSU6M6RD.css"
       ],
       "patterns": []
     },
     {
       "name": "assets",
-      "installMode": "lazy",
+      "installMode": "prefetch",
       "updateMode": "prefetch",
       "cacheQueryOptions": {
         "ignoreVary": true
@@ -295,13 +295,13 @@
     "/2do-examen-uab/images/user/user-37.jpg": "5af40ebdfc0a84dda49e41cb24e1a063203ad61d",
     "/2do-examen-uab/images/video-thumb/thumb-16.png": "67fe3ac40e614cca0e655384715e0889308f427b",
     "/2do-examen-uab/images/video-thumb/youtube-icon-84.svg": "6a35733f1be4150cc497cd4366a7c2362c2e6f67",
-    "/2do-examen-uab/index.html": "7022d2fa9da7d30122b5d8fa00dd63f97e05184f",
+    "/2do-examen-uab/index.html": "4d80d80d7851b1093834a2a72b9c7a7125a8c549",
+    "/2do-examen-uab/main-5AXBITDP.js": "36bb7a62a4136032c5bba9b9140b12a9588336b2",
     "/2do-examen-uab/main-7EP6GT2C.css": "522332123a9fb005058f7c489c37d098b4aae503",
-    "/2do-examen-uab/main-ZTG3OUKJ.js": "d214562a1744021401c45fa848d78a6525d544fb",
     "/2do-examen-uab/manifest.webmanifest": "ad53799ea389d98f6664c094bcd3366969fb4076",
     "/2do-examen-uab/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
     "/2do-examen-uab/scripts-SLBTLPV2.js": "00a2b9b042a2e161f1957c26b8790b0c3f8d149b",
-    "/2do-examen-uab/styles-73CFUATZ.css": "e120502b892fe5cdb76f4e2472342068903c4155"
+    "/2do-examen-uab/styles-YSU6M6RD.css": "1add409e3794c3d652ae46fd7a54d89d791acd6a"
   },
   "navigationUrls": [
     {

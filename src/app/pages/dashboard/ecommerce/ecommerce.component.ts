@@ -5,6 +5,7 @@ import { MonthlyTargetComponent } from '../../../shared/components/ecommerce/mon
 import { StatisticsChartComponent } from '../../../shared/components/ecommerce/statics-chart/statics-chart.component';
 import { DemographicCardComponent } from '../../../shared/components/ecommerce/demographic-card/demographic-card.component';
 import { RecentOrdersComponent } from '../../../shared/components/ecommerce/recent-orders/recent-orders.component';
+import { NotificationService } from '../../../shared/services/notification.service';
 
 @Component({
   selector: 'app-ecommerce',
@@ -18,4 +19,26 @@ import { RecentOrdersComponent } from '../../../shared/components/ecommerce/rece
   ],
   templateUrl: './ecommerce.component.html',
 })
-export class EcommerceComponent {}
+export class EcommerceComponent {
+  constructor(private notificacionService: NotificationService) {}
+
+  allowNotifications() {
+    this.notificacionService
+      .requestPermission()
+      .then((permission) => {
+        if (permission === 'granted') {
+          alert('Permiso concedido');
+        } else {
+          alert('Permiso denegado');
+        }
+      })
+      .catch((err) => console.error(err));
+  }
+
+  testNotification() {
+    this.notificacionService.showNotification('!Hola desde Angular', {
+      body: 'Esta ese una notificación de prueba',
+      icon: '/images/logo/logo.svg',
+    });
+  }
+}
